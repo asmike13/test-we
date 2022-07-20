@@ -24,7 +24,7 @@ const Character = ({
 	return (
 		<>
 			{status === 'pending' && <Loader />}
-			{status === 'rejected' && <div>Book not found</div>}
+			{status === 'rejected' && <div className="section-title">Character not found</div>}
 			{currentCharacter && currentCharacter.id === characterId &&
 				<>
 					<NavBar title={getCharacterName(currentCharacter)} />

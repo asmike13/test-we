@@ -166,7 +166,9 @@ Array [
 `;
 
 exports[`should render as snapshot with status rejected 1`] = `
-<div>
-  Book not found
+<div
+  className="section-title"
+>
+  Character not found
 </div>
 `;

@@ -13,7 +13,7 @@ interface IBookDetailProps {
 export const BookDetail = ({ status, currentBook, title }: IBookDetailProps) => (
 	<>
 		{status === 'pending' && <Loader />}
-		{status === 'rejected' && <div>Book not found</div>}
+		{status === 'rejected' && <div className="section-title">Book not found</div>}
 		{status === 'fulfilled' && currentBook &&
 			<>
 				<NavBar title={title} />
