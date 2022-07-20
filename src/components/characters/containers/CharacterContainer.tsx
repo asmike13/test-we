@@ -14,6 +14,7 @@ const CharacterContainer = () => {
 	const {
 		currentCharacter,
 		characterList,
+		status,
 	} = useSelector((store: IRootState) => store.characters)
 
 	React.useEffect(() => {
@@ -62,6 +63,7 @@ const CharacterContainer = () => {
 		characterList,
 		currentCharacter,
 		characterId,
+		status,
 		getCharacterFromUrl,
 		getBooksLink,
 	}

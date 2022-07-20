@@ -1,24 +1,267 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`should render as snapshot 1`] = `
-Array [
-  <div
-    className="overlay"
-  />,
-  <div
-    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation5 loader css-qh7kl5-MuiPaper-root"
+exports[`should render as snapshot with status fulfilled 1`] = `
+<div
+  className="character-list"
+>
+  <h2
+    className="section-title"
   >
-    <svg
-      aria-hidden={true}
-      className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
-      data-testid="HourglassBottomIcon"
-      focusable="false"
-      viewBox="0 0 24 24"
+    Characters :
+  </h2>
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-3su884-MuiPaper-root"
+  >
+    <ul
+      className="MuiList-root MuiList-padding css-epc8ws-MuiList-root"
+      id="character-scroll-list"
     >
-      <path
-        d="m18 22-.01-6L14 12l3.99-4.01L18 2H6v6l4 4-4 3.99V22h12zM8 7.5V4h8v3.5l-4 4-4-4z"
-      />
-    </svg>
-  </div>,
-]
+      <li
+        className="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="FemaleIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.5 9.5C17.5 6.46 15.04 4 12 4S6.5 6.46 6.5 9.5c0 2.7 1.94 4.93 4.5 5.4V17H9v2h2v2h2v-2h2v-2h-2v-2.1c2.56-.47 4.5-2.7 4.5-5.4zm-9 0C8.5 7.57 10.07 6 12 6s3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root css-tlelie-MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+            >
+              string
+            </span>
+          </div>
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </div>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="FemaleIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.5 9.5C17.5 6.46 15.04 4 12 4S6.5 6.46 6.5 9.5c0 2.7 1.94 4.93 4.5 5.4V17H9v2h2v2h2v-2h2v-2h-2v-2.1c2.56-.47 4.5-2.7 4.5-5.4zm-9 0C8.5 7.57 10.07 6 12 6s3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root css-tlelie-MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+            >
+              string
+            </span>
+          </div>
+          <span
+            className="MuiTouchRipple-root css-8je8zh-MuiTouchRipple-root"
+          />
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
+`;
+
+exports[`should render as snapshot with status pending 1`] = `
+<div
+  className="character-list"
+>
+  <h2
+    className="section-title"
+  >
+    Characters :
+  </h2>
+  <div
+    className="MuiPaper-root MuiPaper-elevation MuiPaper-rounded MuiPaper-elevation3 css-3su884-MuiPaper-root"
+  >
+    <ul
+      className="MuiList-root MuiList-padding css-epc8ws-MuiList-root"
+      id="character-scroll-list"
+    >
+      <li
+        className="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="FemaleIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.5 9.5C17.5 6.46 15.04 4 12 4S6.5 6.46 6.5 9.5c0 2.7 1.94 4.93 4.5 5.4V17H9v2h2v2h2v-2h2v-2h-2v-2.1c2.56-.47 4.5-2.7 4.5-5.4zm-9 0C8.5 7.57 10.07 6 12 6s3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root css-tlelie-MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+            >
+              string
+            </span>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+        disabled={false}
+        onClick={[Function]}
+      >
+        <div
+          className="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <div
+            className="MuiListItemIcon-root css-cveggr-MuiListItemIcon-root"
+          >
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root MuiSvgIcon-fontSizeMedium css-i4bv87-MuiSvgIcon-root"
+              data-testid="FemaleIcon"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M17.5 9.5C17.5 6.46 15.04 4 12 4S6.5 6.46 6.5 9.5c0 2.7 1.94 4.93 4.5 5.4V17H9v2h2v2h2v-2h2v-2h-2v-2.1c2.56-.47 4.5-2.7 4.5-5.4zm-9 0C8.5 7.57 10.07 6 12 6s3.5 1.57 3.5 3.5S13.93 13 12 13s-3.5-1.57-3.5-3.5z"
+              />
+            </svg>
+          </div>
+          <div
+            className="MuiListItemText-root css-tlelie-MuiListItemText-root"
+          >
+            <span
+              className="MuiTypography-root MuiTypography-body1 MuiListItemText-primary css-10hburv-MuiTypography-root"
+            >
+              string
+            </span>
+          </div>
+        </div>
+      </li>
+      <li
+        className="MuiListItem-root MuiListItem-gutters css-1nxmd3h-MuiListItem-root"
+        disabled={false}
+      >
+        <div
+          className="MuiListItemButton-root MuiListItemButton-gutters MuiButtonBase-root css-16ac5r2-MuiButtonBase-root-MuiListItemButton-root"
+          onBlur={[Function]}
+          onContextMenu={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          <span>
+             Load more ...
+          </span>
+        </div>
+      </li>
+    </ul>
+  </div>
+</div>
 `;
