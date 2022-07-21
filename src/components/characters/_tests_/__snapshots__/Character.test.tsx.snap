@@ -63,7 +63,7 @@ Array [
         className="MuiListItem-root MuiListItem-gutters css-1xtwiqb-MuiListItem-root"
         disabled={false}
       >
-        Gender: string
+        Gender: Male
       </li>
       <li
         className="MuiListItem-root MuiListItem-gutters css-1xtwiqb-MuiListItem-root"

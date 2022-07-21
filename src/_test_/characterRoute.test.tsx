@@ -15,3 +15,10 @@ it('should follow the current process of fetching loading and display', async ()
 	await waitForElementToEqual(container, '.navbar-title', 'The Daughter of the Dusk')
 	await waitForElement(container, '.character-infos-list')
 })
+
+it('should display not found', async () => {
+	const { container } = render(getRender(Character, ['/', '/character/1000000'], '/character/:characterId'))
+
+	await waitForElement(container, '.section-title')
+	expect(/Character not found/.test(container.innerHTML)).toBeTruthy()
+})

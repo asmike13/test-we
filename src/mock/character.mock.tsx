@@ -4,7 +4,7 @@ export const characterMock = {
 	id: '1',
 	url: 'https://anapioficeandfire.com/api/characters/1',
 	name: 'string',
-	gender: 'string',
+	gender: 'Male',
 	culture: 'string',
 	born: 'string',
 	died: 'string',
@@ -24,6 +24,7 @@ export const charactersMock = [
 	characterMock,
 	{
 		...characterMock,
+		gender: 'Female',
 		url: 'https://anapioficeandfire.com/api/characters/2',
 	}
 ]

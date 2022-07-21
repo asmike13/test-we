@@ -22,3 +22,10 @@ it('should follow the current process of fetching loading and display', async ()
 	await waitForElement(container, '.book-infos')
 	await waitForElement(container, '.character-list')
 })
+
+it('should display not found', async () => {
+	const { container } = render(getRender(BookDetail, ['/', '/book/1000000'], '/book/:bookId'))
+
+	await waitForElement(container, '.section-title')
+	expect(/Book not found/.test(container.innerHTML)).toBeTruthy()
+})
